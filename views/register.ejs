@@ -1,0 +1,76 @@
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- <link rel="stylesheet" href="/assets/style.css" > -->
+   
+      <!-- Favicons -->s
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--external css-->
+  <link href="assets/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+  <!-- Custom styles for this template-->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style-responsive.css" rel="stylesheet">
+     <title>Document</title>
+ </head>
+
+<!-- <h1> Sign up form </h1>
+ 
+<form action="/register" method="POST">
+    <input type="text" name="username" id="username"
+        placeholder="username">
+            <input type="text" id="number" name="number"
+        placeholder="Mobile number">
+    <input type="password" name="password" id="password"
+        placeholder="password">
+
+    <button>Submit</button>
+</form>
+ 
+<h1>This is home page</h1>
+ 
+<li><a href="/register">Sign up!!</a></li>
+<li><a href="/login">Login</a></li>
+<li><a href="/logout">Logout</a></li> -->
+
+<!-- registration -->
+<!--  -->
+<div id="login-page">
+    <div class="container">
+      <form class="form-login" action="/register" method="POST">
+        <h2 class="form-login-heading">Signup now</h2>
+        <div class="login-wrap">
+          <input type="text" name="username" id="xyz" class="form-control" placeholder="User ID" autofocus>
+          <br>
+          <input type="number" name="number" id= "number" class="form-control" placeholder="Mobile Number">
+         <br>
+          <input type="password" name="password" id= "password" class="form-control" placeholder="Password">
+         <br>
+          <a class="btn btn-theme btn-block" href="/login" type="submit"><i class="fa fa-lock"></i>Create a account</a>
+          <hr>
+         
+          <div class="registration">
+            Have an account yet?<br/>
+            <a class="" href="/login">
+              Sign in
+              </a>
+          </div>
+        </div>
+       
+      </form>
+    </div>
+  </div>
+  <!-- js placed at the end of the document so the pages load faster -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <!--BACKSTRETCH-->
+  <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
+  <script type="text/javascript" src="lib/jquery.backstretch.min.js"></script>
+  <script>
+    $.backstretch("img/login-bg.jpg", {
+      speed: 500
+    });
+  </script>
